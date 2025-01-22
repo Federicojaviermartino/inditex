@@ -126,4 +126,64 @@ Proposal filtering and processing.
 
 End-to-end integration of all components.
 
+
+
+// Implementación de la solución en un sistema low-code //
+Si el resultado final debe mostrarse en un sistema low-code como Power BI, AppGyver o cualquier otra herramienta similar, se pueden tomar las siguientes acciones:
+
+Transformación y Exportación de Datos:
+
+Generar el resultado en un formato amigable como JSON o CSV para facilitar la integración con herramientas low-code.
+Ejemplo: Guardar el archivo de salida (output.json) con los datos requeridos.
+Consideraciones de Rendimiento:
+
+Asegurar que los datos se exporten en lotes pequeños si el volumen es alto, ya que muchas herramientas low-code tienen limitaciones de rendimiento con archivos masivos.
+Optimizar el backend para que el sistema low-code realice peticiones a través de APIs en lugar de manejar grandes volúmenes de datos directamente.
+Requisitos del API:
+
+El sistema low-code puede consumir datos desde una API REST con las siguientes características:
+Endpoint para consultar el resultado en tiempo real.
+Paginación para manejar grandes cantidades de datos.
+Respuestas en formato JSON estándar.
+
+Parámetros necesarios:
+cycle: Filtrar los resultados por ciclos de localización.
+limit y offset: Para la paginación.
+
+Manejo de un archivo JSON de 20GB
+Si el archivo Prereparto_bruto.json ocupara 20GB, la solución debe modificarse para manejar los datos en streaming:
+
+Lectura en Streaming:
+
+Usar librerías como JSONStream para procesar el archivo línea a línea en lugar de cargar todo en memoria.
+Beneficios:
+Reducción del consumo de memoria.
+Procesamiento más eficiente para grandes volúmenes de datos.
+Procesamiento Incremental:
+
+Los datos del archivo se procesan en partes y se almacenan temporalmente en un almacén como Redis o una base de datos temporal para consultas rápidas.
+Consideraciones de Escalabilidad:
+
+Dividir el archivo en partes más pequeñas.
+Procesar cada segmento en paralelo si el entorno lo permite.
+
+Propuesta de Visualización en una Herramienta Low-Code
+Para presentar de manera visual cómo se rellenan los pedidos desde las zonas del almacén:
+
+Interfaz Visual:
+
+Un gráfico de barras apilado o un gráfico circular para mostrar:
+Cantidad de unidades distribuidas desde cada zona (ZAR, MSR, SILO).
+Diferenciación por estado de stock (Em05, Em01).
+Detalles de Almacén:
+
+Un mapa del almacén interactivo donde:
+Cada zona (ZAR, MSR, SILO) esté marcada.
+Los artículos y cantidades distribuidas se muestren como etiquetas flotantes al hacer clic.
+Compatibilidad con Sistemas Low-Code:
+
+Generar un archivo JSON que pueda ser directamente consumido por herramientas de visualización como Power BI o Tableau.
+Crear una API que proporcione los datos para alimentar widgets o gráficos personalizados.
+
+
 For any questions or issues, feel free to create an issue in the repository.
