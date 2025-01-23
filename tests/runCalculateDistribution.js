@@ -2,20 +2,17 @@ const fs = require('fs');
 const path = require('path');
 const calculateDistribution = require('../src/application/calculateDistribution');
 const Proposal = require('../src/domain/proposal');
-const Stock = require('../src/domain/stock');
 
 // Leer los archivos JSON
 const proposalsFile = path.resolve(__dirname, '../Prereparto_bruto.json');
 const stockFile = path.resolve(__dirname, '../Stock_unificado.json');
 
 const proposalsData = JSON.parse(fs.readFileSync(proposalsFile, 'utf8'));
-const stockData = JSON.parse(fs.readFileSync(stockFile, 'utf8'));
+const stockDataRaw = JSON.parse(fs.readFileSync(stockFile, 'utf8'));
 
-// Depurar estructura de proposalsData
-console.log('Loaded proposals data:', proposalsData);
-
-// Adaptar estructura de proposalsData
-const proposalsArray = Array.isArray(proposalsData) ? proposalsData : proposalsData.data;
+// Validar y estructurar los datos de propuestas y stock
+const proposalsArray = Array.isArray(proposalsData.data) ? proposalsData.data : proposalsData;
+const stockArray = Array.isArray(stockDataRaw.data) ? stockDataRaw.data : stockDataRaw;
 
 // Convertir datos JSON a objetos de dominio
 const proposals = proposalsArray.map(
@@ -26,7 +23,7 @@ const proposals = proposalsArray.map(
 const cycles = ['CICLO 2 GRUPO A2', 'CICLO 1 GRUPO B', 'CICLO 1 GRUPO A2'];
 
 // Calcular la distribución
-const distributionTable = calculateDistribution(proposals, stocks, cycles);
+const distributionTable = calculateDistribution(proposals, stockArray, cycles);
 
 // Mostrar resultados
 console.log('Distribution Table:');

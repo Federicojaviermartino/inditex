@@ -1,0 +1,234 @@
+[
+  {
+    "key": "2354/29/802/89/V2024",
+    "idTienda": 9470,
+    "propuesta": 5,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B03-012-Z-026"
+  },
+  {
+    "key": "2354/29/802/79/V2024",
+    "idTienda": 11157,
+    "propuesta": 9,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B04-003-A-041"
+  },
+  {
+    "key": "4572/73/52/99/V2024",
+    "idTienda": 10530,
+    "propuesta": 5,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-B03-001-Z-021"
+  },
+  {
+    "key": "4572/73/52/99/V2024",
+    "idTienda": 10530,
+    "propuesta": 5,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B03-009-A-047"
+  },
+  {
+    "key": "254/409/990/99/V2024",
+    "idTienda": 15770,
+    "propuesta": 12,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-RB1-012-B-054"
+  },
+  {
+    "key": "3265/206/131/99/I2023",
+    "idTienda": 10610,
+    "propuesta": 1587,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-D01-005-A-052"
+  },
+  {
+    "key": "5259/29/800/99/V2024",
+    "idTienda": 10610,
+    "propuesta": 5,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B03-011-Z-019"
+  },
+  {
+    "key": "7698/29/999/90/V2024",
+    "idTienda": 11367,
+    "propuesta": 1,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-B03-011-Z-044"
+  },
+  {
+    "key": "1416/705/716/99/I2023",
+    "idTienda": 9470,
+    "propuesta": 1,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-RB0-012-A-034"
+  },
+  {
+    "key": "6301/47/990/1/I2023",
+    "idTienda": 11164,
+    "propuesta": 16,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-C02-002-A-025"
+  },
+  {
+    "key": "6132/77/800/2/V2024",
+    "idTienda": 11157,
+    "propuesta": 3,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-C02-004-A-044"
+  },
+  {
+    "key": "2361/29/251/98/V2024",
+    "idTienda": 10610,
+    "propuesta": 3,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B04-007-Z-010"
+  },
+  {
+    "key": "6335/65/250/3/V2024",
+    "idTienda": 11157,
+    "propuesta": 43,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-RB0-008-A-048"
+  },
+  {
+    "key": "254/409/990/99/V2024",
+    "idTienda": 2036,
+    "propuesta": 54,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-RB1-012-B-054"
+  },
+  {
+    "key": "9327/73/52/99/V2024",
+    "idTienda": 9976,
+    "propuesta": 1,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B03-003-A-027"
+  },
+  {
+    "key": "4572/73/52/99/V2024",
+    "idTienda": 11157,
+    "propuesta": 66,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-B03-001-Z-021"
+  },
+  {
+    "key": "4572/73/52/99/V2024",
+    "idTienda": 11157,
+    "propuesta": 66,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B03-009-A-047"
+  },
+  {
+    "key": "1570/77/700/2/V2024",
+    "idTienda": 9976,
+    "propuesta": 4,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-B02-013-Z-048"
+  },
+  {
+    "key": "1570/77/700/2/V2024",
+    "idTienda": 9976,
+    "propuesta": 4,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B03-007-Z-021"
+  },
+  {
+    "key": "3265/467/131/99/I2023",
+    "idTienda": 2036,
+    "propuesta": 6,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-D01-005-A-053"
+  },
+  {
+    "key": "1657/52/733/99/V2024",
+    "idTienda": 11157,
+    "propuesta": 152,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B03-002-Z-038"
+  },
+  {
+    "key": "2349/29/52/80/V2024",
+    "idTienda": 9976,
+    "propuesta": 8,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B04-005-Z-035"
+  },
+  {
+    "key": "2349/29/52/80/V2024",
+    "idTienda": 11164,
+    "propuesta": 4,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B04-005-Z-035"
+  },
+  {
+    "key": "5608/29/251/90/I2023",
+    "idTienda": 11164,
+    "propuesta": 20,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-B04-009-A-011"
+  },
+  {
+    "key": "3389/9/450/1/V2024",
+    "idTienda": 10530,
+    "propuesta": 15,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-B03-009-A-022"
+  },
+  {
+    "key": "2301/72/800/2/V2024",
+    "idTienda": 11157,
+    "propuesta": 82,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B02-012-A-014"
+  },
+  {
+    "key": "1416/705/716/99/I2023",
+    "idTienda": 11164,
+    "propuesta": 7,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 5,
+    "posicioncompleta": "P-RB0-012-A-034"
+  },
+  {
+    "key": "9208/473/52/99/V2024",
+    "idTienda": 9976,
+    "propuesta": 2,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-B03-007-A-024"
+  },
+  {
+    "key": "6372/72/250/99/V2024",
+    "idTienda": 10610,
+    "propuesta": 6,
+    "tipoStockDesc": "MSR",
+    "EstadoStock": 1,
+    "posicioncompleta": "P-D01-002-A-017"
+  }
+]

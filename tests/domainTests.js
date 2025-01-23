@@ -1,4 +1,3 @@
-// tests/domainTests.js
 const Stock = require('../src/domain/stock');
 const Proposal = require('../src/domain/proposal');
 const assert = require('assert');

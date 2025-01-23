@@ -1,4 +1,3 @@
-// src/application/calculateDistribution.js
 const Stock = require('../domain/stock');
 
 function calculateDistribution(proposals, stockData, cycles) {
