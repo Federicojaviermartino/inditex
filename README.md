@@ -8,10 +8,9 @@
 - [Scripts](#scripts)
 - [Implementation Details](#implementation-details)
   - [Task 1](#task-1)
-  - [Low Code Integration](#low-code-integration)
-  - [Handling Large Data Files](#handling-large-data-files)
-  - [Visualization Proposal](#visualization-proposal)
-- [Future Improvements](#future-improvements)
+  - [Task 2: Low Code Integration](#low-code-integration)
+  - [Task 3: Handling Large Data Files](#handling-large-data-files)
+  - [Task 4: Visualization Proposal](#visualization-proposal)
 
 ---
 
