@@ -35,7 +35,6 @@ The project is structured following the Hexagonal Architecture:
 2. Navigate to the project directory:
    ```bash
    cd Prueba_Tec_Inditex
-   cd inditex
    ```
 
 3. Install dependencies:
