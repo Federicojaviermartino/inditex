@@ -1,21 +1,17 @@
+// src/application/calculateDistribution.js
 const Stock = require('../domain/stock');
-const Proposal = require('../domain/proposal');
 
-/**
- * Calculates stock distribution and generates a formatted table.
- * @param {Array} proposals - Array of Proposal objects.
- * @param {Array} stockData - Array of Stock objects.
- * @param {Array} cycles - Valid distribution cycles.
- * @returns {Array} - Formatted distribution table.
- */
 function calculateDistribution(proposals, stockData, cycles) {
-    const distributionTable = [];
+    const result = [];
 
-    proposals.forEach((proposal) => {
-        if (proposal.matchesCriteria(cycles, 1)) {
+    proposals
+        .filter(
+            (proposal) =>
+                cycles.includes(proposal.grupoLocalizacionDesc) && proposal.esEcommerce === 1
+        )
+        .forEach((proposal) => {
             let unitsNeeded = proposal.propuesta;
 
-            // Filter and sort stock by priority zones
             stockData
                 .filter((stock) => stock.key === proposal.key)
                 .sort((a, b) => {
@@ -32,12 +28,10 @@ function calculateDistribution(proposals, stockData, cycles) {
                             stockEntry.posicioncompleta
                         );
 
-                        // Allocate stock
                         const allocation = stock.allocateStock(unitsNeeded, proposal.esEcommerce);
 
-                        // Add allocation details to the distribution table
                         allocation.allocationDetails.forEach((detail) => {
-                            distributionTable.push({
+                            result.push({
                                 key: proposal.key,
                                 idTienda: proposal.tiendaId,
                                 propuesta: proposal.propuesta,
@@ -47,14 +41,12 @@ function calculateDistribution(proposals, stockData, cycles) {
                             });
                         });
 
-                        // Update remaining units needed
                         unitsNeeded = allocation.remainingUnits;
                     }
                 });
-        }
-    });
+        });
 
-    return distributionTable;
+    return result;
 }
 
 module.exports = calculateDistribution;
