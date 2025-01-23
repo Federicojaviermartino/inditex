@@ -1,3 +1,4 @@
+// src/domain/stock.js
 class Stock {
     constructor(key, tipoStockDesc, stockEm05, stockEm01, posicioncompleta) {
         this.key = key;
