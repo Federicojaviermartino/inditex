@@ -29,7 +29,7 @@ The project is structured following the Hexagonal Architecture:
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/Federicojaviermartino/inditex.git>
+   git clone https://github.com/Federicojaviermartino/stock_management.git
    ```
 
 2. Navigate to the project directory:
