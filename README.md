@@ -34,7 +34,7 @@ The project is structured following the Hexagonal Architecture:
 
 2. Navigate to the project directory:
    ```bash
-   cd Prueba_Tec_Inditex
+   cd stock_management
    ```
 
 3. Install dependencies:
@@ -44,12 +44,12 @@ The project is structured following the Hexagonal Architecture:
 
 4. Run the test:
    ```bash
-   node inditex/tests/domainTests.js
+   node tests/domainTests.js
    ```
 
 5. Execute the distribution calculation script:
    ```bash
-   node inditex/tests/runCalculateDistribution.js
+   node tests/runCalculateDistribution.js
    ```
 
 ## Features
